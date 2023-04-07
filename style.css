@@ -1,0 +1,75 @@
+/* NAVBAR*/
+
+.bg-light-custom {
+  background-color: rgb(27, 72, 99);
+}
+.navbar-light .navbar-brand {
+  color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: aliceblue;
+}
+
+/*JUMBOTRON*/
+
+.mt-4-cust {
+  margin-top: 0;
+}
+.p-5-cust {
+  padding: 5rem;
+}
+.bg-primary-cust {
+  background-image: url(./img/surf.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.rounded-cust {
+  border-radius: 0;
+}
+.text-cust {
+  text-align: center;
+}
+
+/*MAIN*/
+
+.main-title {
+  margin-top: 2rem;
+}
+.container-fluid {
+  /* text-align: center; */
+  /* margin-top: 3rem; */
+}
+.container-fluid .row .col {
+  padding: 1.5rem;
+}
+.fa-2xl {
+  margin-bottom: 2rem;
+}
+
+/* Image Photo */
+
+.card-group {
+  margin: 10vh;
+}
+.card {
+  border: rgb(181, 172, 172) solid 1px;
+  padding: 5vh;
+}
+.card-group > .card + .card {
+  border: rgb(181, 172, 172) solid 1px;
+  margin: 0 5vh 0 5vh;
+}
+.card-img-top {
+  height: 100%;
+  background-size: cover;
+}
+
+/* FOOTER*/
+
+.card-footer {
+  margin-top: 10vh;
+}
